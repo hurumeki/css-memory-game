@@ -73,7 +73,7 @@
           <div class="dialog-content">
             <p>
               カードは全8種類<br>
-              お手つき5回でゲームオーバーです。
+              お手つき4回でゲームオーバーです。
             </p>
           </div>
           <div class="label-wrapper">
@@ -99,25 +99,19 @@
             for="p-4"
             class="f-3"/>
           <label
-            for="p-5"
-            class="f-4"/>
-          <label
             for="reset"
-            class="f-5"/>
+            class="f-4"/>
           <div class="dialog-content">
             <div class="f-1">
-              おてつき1回目。残り4回。
+              おてつき1回目。残り3回。
             </div>
             <div class="f-2">
-              おてつき2回目。残り3回。
+              おてつき2回目。残り2回。
             </div>
             <div class="f-3">
-              おてつき3回目。残り2回。
+              おてつき3回目。残り1回。
             </div>
             <div class="f-4">
-              おてつき4回目。残り1回。
-            </div>
-            <div class="f-5">
               ゲームオーバー
             </div>
           </div>
