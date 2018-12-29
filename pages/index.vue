@@ -196,7 +196,7 @@ export default {
 </script>
 
 <style lang="scss">
-.input {
+input {
   display: none;
 }
 
