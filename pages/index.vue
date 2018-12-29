@@ -182,7 +182,7 @@ export default {
   data: function() {
     return {
       randomCount: 8,
-      phaseCount: 5,
+      phaseCount: 4,
       markCount: 8,
       mark: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
     }
@@ -447,7 +447,7 @@ input {
 
 @for $c from 1 through 16 {
   @for $m from 1 through 8 {
-    @for $p from 1 through 5 {
+    @for $p from 1 through 4 {
       // カードをめくる
       #p-#{$p}:checked
         ~ #check-#{$c}-#{$m}-#{$p}-open:checked
@@ -495,7 +495,7 @@ input {
 
 // 不正解のカードをめくる
 @for $c from 1 through 16 {
-  @for $p from 1 through 5 {
+  @for $p from 1 through 4 {
     #p-#{$p}:checked
       ~ #check-#{$c}-#{$p}-wrong:checked
       ~ .container
