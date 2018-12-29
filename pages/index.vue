@@ -196,6 +196,10 @@ export default {
 </script>
 
 <style lang="scss">
+.input {
+  display: none;
+}
+
 .container {
   height: 100vh;
   overflow: hidden;
@@ -391,6 +395,9 @@ export default {
 }
 [name='radio-2']:checked ~ .container .game .help {
   display: none;
+}
+[name='radio-2']:checked ~ .container .label-wrapper {
+  animation-play-state: paused;
 }
 
 // 対応しないlabelを非表示
